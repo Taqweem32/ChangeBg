@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container div button {
+  font-size: 30px;
+  border-radius: 100px;
+  padding: 20px;
+}
+.container div button:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
